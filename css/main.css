@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=inter:wght@300;400;500;700&display=swap");
 
 html {
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-  body {
-    font-family: "Inter", sans-serif;
-    background-color: #ffffff;
-    font-size: 16pt;
-  }
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  font-size: 16pt;
+}
 
 h1,
 h2,
@@ -27,49 +27,47 @@ li {
 }
 
 h1 {
-    font-size: 12.5rem;
-    font-weight: 700;
-  }
-  
-  h2 {
-    font-size: 4rem;
-    font-weight: 500;
-  }
-  
-  h3 {
-    font-size: 3rem;
-    font-weight: 700;
-  }
-  
-  h4 {
-    font-size: 2rem;
-    font-weight: 700;
-  }
-  
-  p {
-    font-size: 1.5rem;
-    font-weight: 400;
-  }
-  
-  a,
-  li {
-    font-size: 1.25rem;
-    font-weight: 400;
-    font-family: "Inter", sans-serif;
-  }
-  
-  img {
-    height: auto;
-    max-width: 100%;
-  }
+  font-size: 12.5rem;
+  font-weight: 700;
+}
 
+h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+a,
+li {
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
 
 main {
-    padding: 1rem;
-  }
+  padding: 1rem;
+}
 
-
-  /* header & navigation DESKTOP */
+/* header & navigation DESKTOP */
 
 header {
   display: flex;
@@ -77,7 +75,7 @@ header {
 }
 
 .logo {
-  padding:1rem;
+  padding: 1rem;
   padding-left: 1rem;
 }
 
@@ -86,14 +84,14 @@ header {
   flex-direction: row;
   align-items: flex-start;
   padding-left: 2rem;
-  padding-right:2rem;
+  padding-right: 2rem;
 }
 
 .navigation ul {
-  display:flex;
+  display: flex;
   list-style: none;
   padding: 2rem;
-  margin:0;
+  margin: 0;
   gap: 2rem;
 }
 
@@ -107,23 +105,21 @@ header {
 }
 
 .navigation a:hover {
-    color: #6a57b4;
+  color: #6a57b4;
 }
 
-
 .full-hero {
-  background-image: url('/img/pexels-marek-piwnicki-3907296-15499467.jpg');
-  background-size:cover;
+  background-image: url("/img/pexels-marek-piwnicki-3907296-15499467.jpg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-end-start-radius: 4rem;
   border-end-end-radius: 4rem;
 }
 
-
 .hero-area {
   padding: 0.5rem;
-  color:#ffffff;
+  color: #ffffff;
   padding-left: 5rem;
 }
 
@@ -138,23 +134,21 @@ header {
   padding-bottom: 10rem;
 }
 
-
-
 /* intro section */
 .intro {
   display: flex;
   justify-items: space-between;
-  gap:1rem;
+  gap: 1rem;
 }
 
 .intro-text {
-  background: #2D4A40;
-  color:#ffffff;
+  background: #2d4a40;
+  color: #ffffff;
   padding: 5rem;
   border-radius: 0.5rem;
 }
 
-.intro-text p{
+.intro-text p {
   padding-top: 3rem;
 }
 
@@ -166,12 +160,100 @@ header {
   display: block;
 }
 
-
 /* banner section */
+.banner {
+  background-color: #453e4f;
+  color: #ffffff;
+  padding: 7rem;
+  border-radius: 1rem;
+  margin: 1rem 0rem;
+  text-align: center;
+}
+.banner button {
+  padding: 1rem 3rem;
+  margin-top: 1.5rem;
+  border-radius: 0.25rem;
+}
 
+.banner button:hover {
+  background-color: lightpink;
+}
+
+/* blocks (cards) section */
+.blocks {
+  gap: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.block-one {
+  background-image: url("/img/mossy-forest.jpg");
+  color: white;
+  max-width: 100%;
+  height: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  flex: 1;
+}
+.block-one h2 {
+  padding: 2rem;
+}
+.block-two {
+  background-image: url("/img/josh-hild-hfp8uCQ_hy8-unsplash.jpg");
+  color: white;
+  max-width: 100%;
+  height: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  flex: 1;
+}
+.block-two h2 {
+  padding: 2rem;
+}
+.block-three {
+  background-image: url("/img/pexels-jarod-16264341.jpg");
+  color: white;
+  max-width: 100%;
+  height: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  flex: 1;
+}
+
+.block-three h2 {
+  padding: 2rem;
+}
+.block-one img {
+  display: flex;
+  flex-direction: column-reverse;
+}
 
 /* media query for desktop */
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
+}
 
- }
+footer {
+  background-color: #453e4f;
+  color: #ffffff;
+  line-height: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-container ul {
+  list-style: none;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: white;
+}
