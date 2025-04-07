@@ -53,7 +53,7 @@ h1 {
   
   a,
   li {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 400;
     font-family: "Inter", sans-serif;
   }
@@ -65,20 +65,103 @@ h1 {
 
 
 main {
-    display: flex;
-    flex-direction: column;
-    max-width: 1200px;
-    margin: auto;
     padding: 1rem;
   }
 
 
+  /* header & navigation DESKTOP */
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding:1rem;
+  padding-left: 1rem;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 2rem;
+  padding-right:2rem;
+}
+
+.navigation ul {
+  display:flex;
+  list-style: none;
+  padding: 2rem;
+  margin:0;
+  gap: 2rem;
+}
+
+.navigation li {
+  margin-bottom: 1rem;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation a:hover {
+    color: #6a57b4;
+}
+
+
+.full-hero {
+  background-image: url('/img/pexels-marek-piwnicki-3907296-15499467.jpg');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-end-start-radius: 4rem;
+  border-end-end-radius: 4rem;
+}
+
+
+.hero-area {
+  padding: 0.5rem;
+  color:#ffffff;
+  padding-left: 5rem;
+}
+
+.hero-area h1 {
+  line-height: 12rem;
+  margin-bottom: 0rem;
+  padding-top: 4rem;
+}
+
+.hero-area p {
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+}
 
 
 
+/* intro section */
+.intro {
+  display: flex;
+  justify-items: space-between;
+  gap:1rem;
+}
+
+.intro-text {
+  background: #2D4A40;
+  color:#ffffff;
+  padding: 5rem;
+  border-radius: 0.5rem;
+}
 
 
-
+.intro img {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  display: block;
+}
 
 
 
