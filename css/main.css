@@ -154,6 +154,10 @@ header {
   border-radius: 0.5rem;
 }
 
+.intro-text p{
+  padding-top: 3rem;
+}
+
 
 .intro img {
   height: 100%;
