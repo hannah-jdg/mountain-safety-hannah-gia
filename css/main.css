@@ -176,7 +176,7 @@ header {
 }
 
 .banner button:hover {
-  background-color: lightpink;
+  background-color: rgb(252, 221, 226);
 }
 
 /* blocks (cards) section */
@@ -232,11 +232,6 @@ header {
   flex-direction: column-reverse;
 }
 
-/* media query for desktop */
-
-@media (min-width: 992px) {
-}
-
 footer {
   background-color: #453e4f;
   color: #ffffff;
@@ -257,3 +252,10 @@ footer {
   text-decoration: none;
   color: white;
 }
+
+/* media query for desktop */
+
+@media (min-width: 992px) {
+}
+
+
