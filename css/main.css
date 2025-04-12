@@ -67,6 +67,10 @@ main {
   padding: 1rem;
 }
 
+
+
+
+
 /* header & navigation DESKTOP */
 
 header {
@@ -105,9 +109,10 @@ header {
 }
 
 .navigation a:hover {
-  color: #6a57b4;
+  color: #453e4f;
 }
 
+/* index hero & css */
 .full-hero {
   background-image: url("/img/pexels-marek-piwnicki-3907296-15499467.jpg");
   background-size: cover;
@@ -133,6 +138,9 @@ header {
   padding-top: 2rem;
   padding-bottom: 10rem;
 }
+
+
+
 
 /* intro section */
 .intro {
@@ -160,6 +168,8 @@ header {
   display: block;
 }
 
+
+
 /* banner section */
 .banner {
   background-color: #453e4f;
@@ -179,6 +189,9 @@ header {
   background-color: rgb(252, 221, 226);
 }
 
+
+
+
 /* blocks (cards) section */
 .blocks {
   gap: 1rem;
@@ -197,9 +210,16 @@ header {
   border-radius: 0.5rem;
   flex: 1;
 }
+
+.block-one a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .block-one h2 {
   padding: 2rem;
 }
+
 .block-two {
   background-image: url("/img/josh-hild-hfp8uCQ_hy8-unsplash.jpg");
   color: white;
@@ -210,9 +230,17 @@ header {
   border-radius: 0.5rem;
   flex: 1;
 }
+
+.block-two a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .block-two h2 {
   padding: 2rem;
 }
+
+
 .block-three {
   background-image: url("/img/pexels-jarod-16264341.jpg");
   color: white;
@@ -224,6 +252,11 @@ header {
   flex: 1;
 }
 
+.block-three a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .block-three h2 {
   padding: 2rem;
 }
@@ -232,16 +265,168 @@ header {
   flex-direction: column-reverse;
 }
 
+
+
+
+
+/* css for aboutus.html page */
+.about-us{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.nav-headers-pages-about {
+  background-image: url(/img/maxence-pira-7R3tbHtYG3A-unsplash.jpg);
+  background-position: center;
+  color: white;
+  max-width: 100%;
+  height: 35rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  border-end-start-radius: 4rem;
+  border-end-end-radius: 4rem;
+}
+
+.nav-headers-pages-about h2{
+  color: white;
+  padding-left: 2rem;
+  padding-top: 4rem;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.mission-about, .members-about, .equipment-about {
+  background-color: #2d4a40;
+  border-radius: 0.5rem;
+  flex-grow: 1;
+  min-width: 30%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+  
+.mission-about:hover, .members-about:hover, .equipment-about:hover {
+   background-color: #668077; 
+  }
+
+.mission-about h3, .members-about h3, .equipment-about h3 {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 2rem 1.5rem;
+}
+  
+.mission-about img, .members-about img, .equipment-about img {
+  align-self: flex-end;
+  padding: 2rem;
+}
+  
+.mission-about a, .members-about a, .equipment-about a {
+  text-decoration: none;
+}
+    
+
+
+
+/* getinvolved page css */
+.get-involved {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   flex-wrap: wrap;
+   width: 100%;
+   height: auto;
+   margin-bottom: 1rem;
+   margin-top: 1rem;
+  }
+  
+  .nav-headers-pages-involved {
+   background-image: url(/img/jorge-vasconez-BWLK-svXSxw-unsplash.jpg);
+   background-position: center;
+   color: white;
+   max-width: 100%;
+   height: 35rem;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 0.5rem;
+   border-end-start-radius: 4rem;
+  border-end-end-radius: 4rem;
+  }
+  
+  .nav-headers-pages-involved h2 {
+   color: white;
+   padding-left: 2rem;
+   padding-top: 4rem;
+   font-size: 4rem;
+   font-weight: 500;
+  }
+  
+  .specialevents-involved, .infosessions-involved, .volunteer-involved, .careers-involved {
+   background-color:#2d4a40;
+   border-radius: 0.5rem;
+   flex-grow: 1;
+   min-width: 30%;
+   height: 30rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  }
+
+  .infosessions-involved{
+    background-color: #2d4a40;
+  }
+
+  .volunteer-involved{
+    background-color: #2d4a40;
+  }
+
+  .careers-involved{
+    background-color: #2d4a40;
+  }
+  
+  .specialevents-involved:hover, .infosessions-involved:hover, .volunteer-involved:hover, .careers-involved:hover {
+   background-color: #4b695f;
+  }
+  
+  .specialevents-involved h3, .infosessions-involved h3, .volunteer-involved h3, .careers-involved h3 {
+   text-decoration: none;
+   color: #ffffff;
+   padding: 2rem 1.5rem;
+  }
+  
+  .specialevents-involved img, .infosessions-involved img, .volunteer-involved img, .careers-involved img {
+   align-self: flex-end;
+   padding: 2rem;
+  }
+  
+  .specialevents-involved a, .infosessions-involved a, .volunteer-involved a, .careers-involved a {
+   text-decoration: none;
+  }
+  
+
+
+/* footer section */
 footer {
   background-color: #453e4f;
   color: #ffffff;
   line-height: 2rem;
   display: flex;
   justify-content: center;
+  padding: 3rem 0rem;
 }
 
 .footer-container {
   display: flex;
+  gap: 4rem;
 }
 
 .footer-container ul {
@@ -252,6 +437,11 @@ footer {
   text-decoration: none;
   color: white;
 }
+
+.footer-container a:hover {
+  color: #cec6d8;
+}
+
 
 /* media query for desktop */
 
