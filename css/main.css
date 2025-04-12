@@ -47,7 +47,7 @@ h4 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
@@ -66,10 +66,6 @@ img {
 main {
   padding: 1rem;
 }
-
-
-
-
 
 /* header & navigation DESKTOP */
 
@@ -139,9 +135,6 @@ header {
   padding-bottom: 10rem;
 }
 
-
-
-
 /* intro section */
 .intro {
   display: flex;
@@ -168,8 +161,6 @@ header {
   display: block;
 }
 
-
-
 /* banner section */
 .banner {
   background-color: #453e4f;
@@ -188,9 +179,6 @@ header {
 .banner button:hover {
   background-color: rgb(252, 221, 226);
 }
-
-
-
 
 /* blocks (cards) section */
 .blocks {
@@ -211,7 +199,7 @@ header {
   flex: 1;
 }
 
-.block-one a{
+.block-one a {
   text-decoration: none;
   color: #ffffff;
 }
@@ -231,7 +219,7 @@ header {
   flex: 1;
 }
 
-.block-two a{
+.block-two a {
   text-decoration: none;
   color: #ffffff;
 }
@@ -239,7 +227,6 @@ header {
 .block-two h2 {
   padding: 2rem;
 }
-
 
 .block-three {
   background-image: url("/img/pexels-jarod-16264341.jpg");
@@ -252,7 +239,7 @@ header {
   flex: 1;
 }
 
-.block-three a{
+.block-three a {
   text-decoration: none;
   color: #ffffff;
 }
@@ -265,12 +252,8 @@ header {
   flex-direction: column-reverse;
 }
 
-
-
-
-
 /* css for aboutus.html page */
-.about-us{
+.about-us {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -295,7 +278,7 @@ header {
   border-end-end-radius: 4rem;
 }
 
-.nav-headers-pages-about h2{
+.nav-headers-pages-about h2 {
   color: white;
   padding-left: 2rem;
   padding-top: 4rem;
@@ -303,7 +286,9 @@ header {
   font-weight: 500;
 }
 
-.mission-about, .members-about, .equipment-about {
+.mission-about,
+.members-about,
+.equipment-about {
   background-color: #2d4a40;
   border-radius: 0.5rem;
   flex-grow: 1;
@@ -313,106 +298,124 @@ header {
   flex-direction: column;
   justify-content: space-between;
 }
-  
-.mission-about:hover, .members-about:hover, .equipment-about:hover {
-   background-color: #668077; 
-  }
 
-.mission-about h3, .members-about h3, .equipment-about h3 {
+.mission-about:hover,
+.members-about:hover,
+.equipment-about:hover {
+  background-color: #668077;
+}
+
+.mission-about h3,
+.members-about h3,
+.equipment-about h3 {
   text-decoration: none;
   color: #ffffff;
   padding: 2rem 1.5rem;
 }
-  
-.mission-about img, .members-about img, .equipment-about img {
+
+.mission-about img,
+.members-about img,
+.equipment-about img {
   align-self: flex-end;
   padding: 2rem;
 }
-  
-.mission-about a, .members-about a, .equipment-about a {
+
+.mission-about a,
+.members-about a,
+.equipment-about a {
   text-decoration: none;
 }
-    
-
-
 
 /* getinvolved page css */
 .get-involved {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 1rem;
-   flex-wrap: wrap;
-   width: 100%;
-   height: auto;
-   margin-bottom: 1rem;
-   margin-top: 1rem;
-  }
-  
-  .nav-headers-pages-involved {
-   background-image: url(/img/jorge-vasconez-BWLK-svXSxw-unsplash.jpg);
-   background-position: center;
-   color: white;
-   max-width: 100%;
-   height: 35rem;
-   background-size: cover;
-   background-repeat: no-repeat;
-   border-radius: 0.5rem;
-   border-end-start-radius: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.nav-headers-pages-involved {
+  background-image: url(/img/jorge-vasconez-BWLK-svXSxw-unsplash.jpg);
+  background-position: center;
+  color: white;
+  max-width: 100%;
+  height: 35rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  border-end-start-radius: 4rem;
   border-end-end-radius: 4rem;
-  }
-  
-  .nav-headers-pages-involved h2 {
-   color: white;
-   padding-left: 2rem;
-   padding-top: 4rem;
-   font-size: 4rem;
-   font-weight: 500;
-  }
-  
-  .specialevents-involved, .infosessions-involved, .volunteer-involved, .careers-involved {
-   background-color:#2d4a40;
-   border-radius: 0.5rem;
-   flex-grow: 1;
-   min-width: 30%;
-   height: 30rem;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-  }
+}
 
-  .infosessions-involved{
-    background-color: #2d4a40;
-  }
+.nav-headers-pages-involved h2 {
+  color: white;
+  padding-left: 2rem;
+  padding-top: 4rem;
+  font-size: 4rem;
+  font-weight: 500;
+}
 
-  .volunteer-involved{
-    background-color: #2d4a40;
-  }
+.specialevents-involved,
+.infosessions-involved,
+.volunteer-involved,
+.careers-involved {
+  background-color: #2d4a40;
+  border-radius: 0.5rem;
+  flex-grow: 1;
+  min-width: 30%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-  .careers-involved{
-    background-color: #2d4a40;
-  }
-  
-  .specialevents-involved:hover, .infosessions-involved:hover, .volunteer-involved:hover, .careers-involved:hover {
-   background-color: #4b695f;
-  }
-  
-  .specialevents-involved h3, .infosessions-involved h3, .volunteer-involved h3, .careers-involved h3 {
-   text-decoration: none;
-   color: #ffffff;
-   padding: 2rem 1.5rem;
-  }
-  
-  .specialevents-involved img, .infosessions-involved img, .volunteer-involved img, .careers-involved img {
-   align-self: flex-end;
-   padding: 2rem;
-  }
-  
-  .specialevents-involved a, .infosessions-involved a, .volunteer-involved a, .careers-involved a {
-   text-decoration: none;
-  }
-  
+.infosessions-involved {
+  background-color: #2d4a40;
+}
 
+.volunteer-involved {
+  background-color: #2d4a40;
+}
+
+.careers-involved {
+  background-color: #2d4a40;
+}
+
+.specialevents-involved:hover,
+.infosessions-involved:hover,
+.volunteer-involved:hover,
+.careers-involved:hover {
+  background-color: #4b695f;
+}
+
+.specialevents-involved h3,
+.infosessions-involved h3,
+.volunteer-involved h3,
+.careers-involved h3 {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 2rem 1.5rem;
+}
+
+.specialevents-involved img,
+.infosessions-involved img,
+.volunteer-involved img,
+.careers-involved img {
+  align-self: flex-end;
+  padding: 2rem;
+}
+
+.specialevents-involved a,
+.infosessions-involved a,
+.volunteer-involved a,
+.careers-involved a {
+  text-decoration: none;
+}
 
 /* footer section */
 footer {
@@ -442,10 +445,688 @@ footer {
   color: #cec6d8;
 }
 
-
 /* media query for desktop */
 
 @media (min-width: 992px) {
 }
 
+/* ------------------------------------------------------------------------------*/
 
+/* MISSION PAGE*/
+
+.mission-hero-area {
+  background-image: url("/img/pexels-joerg-hartmann-626385254-19929414.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-end-start-radius: 4rem;
+  border-end-end-radius: 4rem;
+  height: 650px;
+  padding: 4rem 5rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* Optional: adds dark overlay for better text contrast */
+  position: relative;
+  z-index: 1;
+}
+
+/* MISSION hero area */
+.mission-hero-area h2 {
+  font-size: 5rem;
+  line-height: 1.1;
+  margin: 0;
+  font-weight: 800;
+}
+
+.mission-hero-area h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+/* ✅ Optional: Responsive text scaling */
+@media (max-width: 768px) {
+  .mission-hero-area {
+    padding: 3rem 2rem;
+    height: auto;
+  }
+
+  .mission-hero-area h1 {
+    font-size: 3rem;
+  }
+
+  .mission-hero-area p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding-top: 0;
+  }
+}
+/* MISSION intro section */
+.split-section {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 650px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.text-content,
+.image-content {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 2rem;
+  max-height: 100;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-content img {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Responsive: Stack content */
+@media (max-width: 768px) {
+  .split-section {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .image-content img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.intro {
+  display: flex;
+  justify-items: space-between;
+  gap: 1rem;
+}
+
+.intro-text {
+  background: #2d4a40;
+  color: #ffffff;
+  padding: 5rem;
+  border-radius: 0.5rem;
+}
+
+.intro-text p {
+  padding-top: 3rem;
+}
+
+.intro img {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  display: block;
+}
+
+/* MISSION banner section */
+.mission-banner {
+  background-color: #453e4f;
+  color: #ffffff;
+  padding: 7rem;
+  border-radius: 1rem;
+  margin: 1rem 0rem;
+  text-align: center;
+  color: white;
+}
+
+.intro {
+  display: flex;
+  justify-items: space-between;
+  gap: 1rem;
+}
+
+.intro-text {
+  background: #2d4a40;
+  color: #ffffff;
+  padding: 5rem;
+  border-radius: 0.5rem;
+}
+
+.intro-text p {
+  padding-top: 3rem;
+}
+
+.text-content {
+  background-color: aliceblue;
+  border-radius: 1rem;
+}
+
+/* MISSION blocks section */
+
+.mission-blocks {
+  gap: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.mission-block-one {
+  background-image: url("/img/pexels-stephen-leonardi-587681991-28129916.jpg");
+  color: white;
+  max-width: 100%;
+  height: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  flex: 1;
+}
+
+.mission-block-one a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.mission-block-one h2 {
+  padding: 2rem;
+}
+
+.mission-block-two {
+  background-image: url("/img/pexels-august-de-richelieu-4427813.jpg");
+  color: white;
+  max-width: 100%;
+  height: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  flex: 1;
+}
+
+.mission-block-two a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.mission-block-two h2 {
+  padding: 2rem;
+}
+
+.mission-block-three {
+  background-image: url("/img/pexels-marek-piwnicki-3907296-15499467.jpg");
+  color: white;
+  max-width: 100%;
+  height: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  flex: 1;
+}
+
+.mission-block-three a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.mission-block-three h2 {
+  padding: 2rem;
+}
+.mission-block-one img {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* ------------------------------------------------------------------------------*/
+
+/* MEMBERS PAGE */
+
+/* MEMBERS hero area*/
+
+.members-hero-area {
+  background-image: url("/img/pexels-imadclicks-10964887.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-end-start-radius: 4rem;
+  border-end-end-radius: 4rem;
+  height: 650px;
+  padding: 4rem 5rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* Optional: adds dark overlay for better text contrast */
+  position: relative;
+  z-index: 1;
+}
+
+.members-hero-area h2 {
+  font-size: 5rem;
+  line-height: 1.1;
+  margin: 0;
+  font-weight: 800;
+}
+
+.members-hero-area h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+/* ✅ Optional: Responsive text scaling */
+@media (max-width: 768px) {
+  .members-hero-area {
+    padding: 3rem 2rem;
+    height: auto;
+  }
+
+  .members-hero-area h1 {
+    font-size: 3rem;
+  }
+
+  .members-hero-area p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding-top: 0;
+  }
+}
+
+/* MEMBERS intro section */
+.split-section {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 650px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.text-content,
+.image-content {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 2rem;
+  max-height: 100;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-content img {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Responsive: Stack content */
+@media (max-width: 768px) {
+  .split-section {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .image-content img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.intro {
+  display: flex;
+  justify-items: space-between;
+  gap: 1rem;
+}
+
+.intro-text {
+  background: #2d4a40;
+  color: #ffffff;
+  padding: 5rem;
+  border-radius: 0.5rem;
+}
+
+.intro-text p {
+  padding-top: 3rem;
+}
+
+.intro img {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  display: block;
+}
+
+/* MEMBERS banner section */
+.members-banner {
+  background-color: #453e4f;
+  color: #ffffff;
+  padding: 7rem;
+  border-radius: 1rem;
+  margin: 1rem 0rem;
+  text-align: center;
+  color: white;
+}
+
+.intro {
+  display: flex;
+  justify-items: space-between;
+  gap: 1rem;
+}
+
+.intro-text {
+  background: #2d4a40;
+  color: #ffffff;
+  padding: 5rem;
+  border-radius: 0.5rem;
+}
+
+.intro-text p {
+  padding-top: 3rem;
+}
+
+.text-content {
+  background-color: aliceblue;
+  border-radius: 1rem;
+}
+
+/* MEMBERS block content*/
+
+.block-1-members {
+  color: white;
+  background-color: #373737;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.block-2-members {
+  color: white;
+  background-color: #373737;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.block-1-members h5 {
+  color: #cde5ff;
+}
+
+/* ------------------------------------------------------------------------------*/
+
+/* EQUIPMENT PAGE */
+
+/* EQUIPMENT hero area*/
+
+.equipment-hero-area {
+  background-image: url("/img/pexels-sebastian-804570.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-end-start-radius: 4rem;
+  border-end-end-radius: 4rem;
+  height: 650px;
+  padding: 4rem 5rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  z-index: 1;
+}
+
+.equipment-hero-area h2 {
+  font-size: 5rem;
+  line-height: 1.1;
+  margin: 0;
+  font-weight: 800;
+}
+
+.equipment-hero-area h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+/* Responsive text scaling */
+@media (max-width: 768px) {
+  .equipment-hero-area {
+    padding: 3rem 2rem;
+    height: auto;
+  }
+
+  .equipment-hero-area h1 {
+    font-size: 3rem;
+  }
+
+  .equipment-hero-area p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding-top: 0;
+  }
+}
+
+/* EQUIPMENT containers section */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.info-block {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  height: 100%; /* Optional: control overall height */
+}
+
+.text-section {
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #373737;
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.image-section {
+  flex: 0 0 60%;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .info-block {
+    flex-direction: column;
+  }
+
+  .text-section,
+  .image-section {
+    flex: 1 1 100%;
+  }
+
+  .image-section {
+    height: 300px; /* control image height on mobile */
+  }
+}
+
+.info-block {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.text-section {
+  flex: 0 0 40%;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.image-section {
+  flex: 0 0 60%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ------------------------------------------------------------------------------*/
+
+/* CURRENT CONDITIONS PAGE */
+
+/* CURRENT CONDITIONS hero area*/
+
+.current-conditions-hero-area {
+  background-image: url("/img/pexels-ekrulila-2418667.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-end-start-radius: 4rem;
+  border-end-end-radius: 4rem;
+  height: 650px;
+  padding: 4rem 5rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  z-index: 1;
+}
+
+.current-conditions-hero-area h2 {
+  font-size: 5rem;
+  line-height: 1.1;
+  margin: 0;
+  font-weight: 800;
+}
+
+.current-conditions-hero-area h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+/* Responsive text scaling */
+@media (max-width: 768px) {
+  .current-conditions-hero-area {
+    padding: 3rem 2rem;
+    height: auto;
+  }
+
+  .current-conditions-hero-area h1 {
+    font-size: 3rem;
+  }
+
+  .current-conditions-hero-area p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding-top: 0;
+  }
+}
+
+/* CURRENT CONDITIONS blocks section */
+
+.current-conditions-blocks {
+  gap: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.current-conditions-block-one {
+  background-image: url("/img/johannes-waibel-WdBQHcIiSIw-unsplash.jpg");
+  color: white;
+  max-width: 100%;
+  height: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  flex: 1;
+}
+
+.current-conditions-block-one a {
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.current-conditions-block-one h2 {
+  padding: 2rem;
+}
+
+.current-conditions-block-two {
+  background-image: url("/img/pexels-triemli-28239451.jpg");
+  color: white;
+  max-width: 100%;
+  height: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  flex: 1;
+}
+
+.current-conditions-block-two a {
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.current-conditions-block-two h2 {
+  padding: 2rem;
+}
+
+.current-conditions-block-three {
+  background-image: url("/img/pexels-marek-piwnicki-3907296-15499467.jpg");
+  color: white;
+  max-width: 100%;
+  height: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  flex: 1;
+}
+
+.current-conditions-block-three a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.current-conditions-block-three h2 {
+  padding: 2rem;
+}
+.current-conditions-block-one img {
+  display: flex;
+  flex-direction: column-reverse;
+}
