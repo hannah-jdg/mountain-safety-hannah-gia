@@ -1130,3 +1130,57 @@ footer {
   display: flex;
   flex-direction: column-reverse;
 }
+
+/* CURRENT CONDITIONS PAGE */
+
+/* CURRENT CONDITIONS hero area*/
+
+.slope-status-hero-area {
+  background-image: url("/img/pexels-ekrulila-2418667.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-end-start-radius: 4rem;
+  border-end-end-radius: 4rem;
+  height: 650px;
+  padding: 4rem 5rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  z-index: 1;
+}
+
+.slope-status-hero-area h2 {
+  font-size: 5rem;
+  line-height: 1.1;
+  margin: 0;
+  font-weight: 800;
+}
+
+.slope-status-hero-area h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+/* Responsive text scaling */
+@media (max-width: 768px) {
+  .slope-status-hero-area {
+    padding: 3rem 2rem;
+    height: auto;
+  }
+
+  .slope-status-hero-area h1 {
+    font-size: 3rem;
+  }
+
+  .slope-status-hero-area p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding-top: 0;
+  }
+}
