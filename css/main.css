@@ -1422,14 +1422,14 @@ header {
 
 .infosessions-intro {
   border-radius: 0.5rem;
-  background-color: #cde5ff;
-  color: #292929;
+  background-color: #668077;
+  color: #ffffff;
   padding: 2rem 3rem;
   margin-top: 1rem;
 }
 
 .infosession-option-one {
-  background-color: #668077;
+  background-color: #292929;
   color: #ffffff;
   border-radius: 0.5rem;
   padding: 2rem 3rem;
@@ -1437,7 +1437,7 @@ header {
 }
 
 .infosession-option-two {
-  background-color: #668077;
+  background-color: #292929;
   color: #ffffff;
   border-radius: 0.5rem;
   padding: 2rem 3rem;
