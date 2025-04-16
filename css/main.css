@@ -331,7 +331,21 @@ header {
   text-decoration: none;
 }
 
+/* ------------------------------------------ */
+/* news & updates page */
 .news-and-updates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.nav-headers-pages-about {
   background-image: url(/img/maxence-pira-7R3tbHtYG3A-unsplash.jpg);
   background-position: center;
   color: white;
@@ -344,7 +358,7 @@ header {
   border-end-end-radius: 4rem;
 }
 
-.news-and-updates h2 {
+.nav-headers-pages-about h2 {
   color: white;
   padding-left: 2rem;
   padding-top: 4rem;
@@ -352,37 +366,51 @@ header {
   font-weight: 500;
 }
 
-.news-cards {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  color: #ffffff;
+.currentconditions-news,
+.slopestatus-news,
+.riskstatus-news {
+  background-color: #2d4a40;
   border-radius: 0.5rem;
   flex-grow: 1;
   min-width: 30%;
   height: 30rem;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
-.news-cards h3 {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.currentconditions-news,
-.slopestatus-news,
-.riskstatus-news {
-  gap: 1rem;
-  background-color: #4b695f;
-  border-radius: 0.5rem;
-  padding-top: 5rem;
-}
 .currentconditions-news:hover,
 .slopestatus-news:hover,
 .riskstatus-news:hover {
   background-color: #668077;
 }
+
+.currentconditions-news h3,
+.slopestatus-news h3,
+.riskstatus-news h3 {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 2rem 1.5rem;
+}
+
+.currentconditions-news img,
+.slopestatus-news img,
+.riskstatus-news img {
+  align-self: flex-end;
+  padding: 2rem;
+}
+
+.currentconditions-news a,
+.slopestatus-news a,
+.riskstatus-news a{
+  text-decoration: none;
+}
+
+
+
+
+
+/* ------------------------------------------ */
 /* getinvolved page css */
 .get-involved {
   display: flex;
