@@ -1161,6 +1161,7 @@ header {
 
 /* RISK STATUS blocks*/
 /* this section is not working! It's not responsive*/
+<<<<<<< Updated upstream
 .option {
   gap: 1rem;
   padding: 1rem;
@@ -1393,3 +1394,5 @@ footer {
     padding-top: 0;
   }
 }
+=======
+>>>>>>> Stashed changes
