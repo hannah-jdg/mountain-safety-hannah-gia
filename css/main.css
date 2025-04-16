@@ -171,13 +171,17 @@ header {
   text-align: center;
 }
 .banner button {
+  background-color: #ffffff;
   padding: 1rem 3rem;
   margin-top: 1.5rem;
   border-radius: 0.25rem;
 }
 
 .banner button:hover {
-  background-color: rgb(252, 221, 226);
+  background-color: #f5eeee;
+  padding: 1rem 3rem;
+  margin-top: 1.5rem;
+  border-radius: 0.25rem;
 }
 
 /* blocks (cards) section */
@@ -188,6 +192,7 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 .block-one {
   background-image: url("/img/mossy-forest.jpg");
   color: white;
@@ -417,38 +422,6 @@ header {
   text-decoration: none;
 }
 
-/* footer section */
-footer {
-  background-color: #453e4f;
-  color: #ffffff;
-  line-height: 2rem;
-  display: flex;
-  justify-content: center;
-  padding: 3rem 0rem;
-}
-
-.footer-container {
-  display: flex;
-  gap: 4rem;
-}
-
-.footer-container ul {
-  list-style: none;
-}
-
-.footer-container a {
-  text-decoration: none;
-  color: white;
-}
-
-.footer-container a:hover {
-  color: #cec6d8;
-}
-
-/* media query for desktop */
-
-@media (min-width: 992px) {
-}
 
 /* ------------------------------------------------------------------------------*/
 
@@ -721,23 +694,7 @@ footer {
   padding-top: 1rem;
 }
 
-/* ✅ Optional: Responsive text scaling */
-@media (max-width: 768px) {
-  .members-hero-area {
-    padding: 3rem 2rem;
-    height: auto;
-  }
 
-  .members-hero-area h1 {
-    font-size: 3rem;
-  }
-
-  .members-hero-area p {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-    padding-top: 0;
-  }
-}
 
 /* MEMBERS intro section */
 .split-section {
@@ -770,26 +727,6 @@ footer {
   display: block;
 }
 
-/* Responsive: Stack content */
-@media (max-width: 768px) {
-  .split-section {
-    flex-direction: column;
-    min-height: auto;
-  }
-
-  .image-content img {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    display: block;
-  }
-}
-
-.intro {
-  display: flex;
-  justify-items: space-between;
-  gap: 1rem;
-}
 
 .intro-text {
   background: #2d4a40;
@@ -901,23 +838,7 @@ footer {
   padding-top: 1rem;
 }
 
-/* Responsive text scaling */
-@media (max-width: 768px) {
-  .equipment-hero-area {
-    padding: 3rem 2rem;
-    height: auto;
-  }
 
-  .equipment-hero-area h1 {
-    font-size: 3rem;
-  }
-
-  .equipment-hero-area p {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-    padding-top: 0;
-  }
-}
 
 /* EQUIPMENT containers section */
 
@@ -958,20 +879,8 @@ footer {
   display: block;
 }
 
-@media (max-width: 768px) {
-  .info-block {
-    flex-direction: column;
-  }
 
-  .text-section,
-  .image-section {
-    flex: 1 1 100%;
-  }
 
-  .image-section {
-    height: 300px; /* control image height on mobile */
-  }
-}
 
 .info-block {
   display: flex;
@@ -1038,23 +947,7 @@ footer {
   padding-top: 1rem;
 }
 
-/* Responsive text scaling */
-@media (max-width: 768px) {
-  .current-conditions-hero-area {
-    padding: 3rem 2rem;
-    height: auto;
-  }
 
-  .current-conditions-hero-area h1 {
-    font-size: 3rem;
-  }
-
-  .current-conditions-hero-area p {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-    padding-top: 0;
-  }
-}
 
 /* CURRENT CONDITIONS blocks section */
 
@@ -1167,23 +1060,6 @@ footer {
   padding-top: 1rem;
 }
 
-/* Responsive text scaling */
-@media (max-width: 768px) {
-  .slope-status-hero-area {
-    padding: 3rem 2rem;
-    height: auto;
-  }
-
-  .slope-status-hero-area h1 {
-    font-size: 3rem;
-  }
-
-  .slope-status-hero-area p {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-    padding-top: 0;
-  }
-}
 
 /* -----------------------------------------------------------------------*/
 
@@ -1223,23 +1099,7 @@ footer {
   padding-top: 1rem;
 }
 
-/* Responsive text scaling */
-@media (max-width: 768px) {
-  .risk-status-hero-area {
-    padding: 3rem 2rem;
-    height: auto;
-  }
 
-  .risk-status-hero-area h1 {
-    font-size: 3rem;
-  }
-
-  .risk-status-hero-area p {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-    padding-top: 0;
-  }
-}
 
 /* MEMBERS intro section */
 .split-section {
@@ -1273,20 +1133,6 @@ footer {
   border-radius: 1rem;
 }
 
-/* Responsive: Stack content */
-@media (max-width: 768px) {
-  .split-section {
-    flex-direction: column;
-    min-height: auto;
-  }
-
-  .image-content img {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    display: block;
-  }
-}
 
 .intro {
   display: flex;
@@ -1371,4 +1217,179 @@ footer {
 .risk-option-two a,
 .risk-option-three a {
   text-decoration: none;
+}
+
+
+
+/* footer section */
+footer {
+  background-color: #453e4f;
+  color: #ffffff;
+  line-height: 2rem;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0rem;
+}
+
+.footer-container {
+  display: flex;
+  gap: 4rem;
+}
+
+.footer-container ul {
+  list-style: none;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-container a:hover {
+  color: #cec6d8;
+}
+
+
+
+
+
+
+/* Responsive: Stack content */
+@media (max-width: 768px) {
+  .split-section {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .image-content img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+/* Responsive text scaling */
+@media (max-width: 768px) {
+  .current-conditions-hero-area {
+    padding: 3rem 2rem;
+    height: auto;
+  }
+
+  .current-conditions-hero-area h1 {
+    font-size: 3rem;
+  }
+
+  .current-conditions-hero-area p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding-top: 0;
+  }
+}
+
+/* Responsive text scaling */
+@media (max-width: 768px) {
+  .risk-status-hero-area {
+    padding: 3rem 2rem;
+    height: auto;
+  }
+
+  .risk-status-hero-area h1 {
+    font-size: 3rem;
+  }
+
+  .risk-status-hero-area p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding-top: 0;
+  }
+}
+
+/* Responsive text scaling */
+@media (max-width: 768px) {
+  .slope-status-hero-area {
+    padding: 3rem 2rem;
+    height: auto;
+  }
+
+  .slope-status-hero-area h1 {
+    font-size: 3rem;
+  }
+
+  .slope-status-hero-area p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .info-block {
+    flex-direction: column;
+  }
+
+  .text-section,
+  .image-section {
+    flex: 1 1 100%;
+  }
+
+  .image-section {
+    height: 300px; /* control image height on mobile */
+  }
+}
+
+/* Responsive text scaling */
+@media (max-width: 768px) {
+  .equipment-hero-area {
+    padding: 3rem 2rem;
+    height: auto;
+  }
+
+  .equipment-hero-area h1 {
+    font-size: 3rem;
+  }
+
+  .equipment-hero-area p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding-top: 0;
+  }
+}
+
+/* Responsive: Stack content */
+@media (max-width: 768px) {
+  .split-section {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .image-content img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.intro {
+  display: flex;
+  justify-items: space-between;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .members-hero-area {
+    padding: 3rem 2rem;
+    height: auto;
+  }
+
+  .members-hero-area h1 {
+    font-size: 3rem;
+  }
+
+  .members-hero-area p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding-top: 0;
+  }
 }
