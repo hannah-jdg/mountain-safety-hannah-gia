@@ -204,13 +204,20 @@ header {
   flex: 1;
 }
 
+.block-one img{
+  display: flex;
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
 .block-one a {
   text-decoration: none;
   color: #ffffff;
 }
 
 .block-one h2 {
-  padding: 2rem;
+  padding-top: 5rem;
+  padding-left: 2rem;
 }
 
 .block-two {
@@ -224,13 +231,20 @@ header {
   flex: 1;
 }
 
+.block-two img{
+  display: flex;
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
 .block-two a {
   text-decoration: none;
   color: #ffffff;
 }
 
 .block-two h2 {
-  padding: 2rem;
+  padding-top: 5rem;
+  padding-left: 2rem;
 }
 
 .block-three {
@@ -244,13 +258,20 @@ header {
   flex: 1;
 }
 
+.block-three img{
+  display: flex;
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
 .block-three a {
   text-decoration: none;
   color: #ffffff;
 }
 
 .block-three h2 {
-  padding: 2rem;
+  padding-top: 5rem;
+  padding-left: 2rem;
 }
 .block-one img {
   display: flex;
@@ -271,7 +292,7 @@ header {
 }
 
 .nav-headers-pages-about {
-  background-image: url(/img/maxence-pira-7R3tbHtYG3A-unsplash.jpg);
+  background-image: url(../img/maxence-pira-7R3tbHtYG3A-unsplash.jpg);
   background-position: center;
   color: white;
   max-width: 100%;
