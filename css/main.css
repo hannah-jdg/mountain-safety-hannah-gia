@@ -596,7 +596,7 @@ header {
 /* MISSION PAGE*/
 
 .mission-hero-area {
-  background-image: url("/img/pexels-joerg-hartmann-626385254-19929414.jpg");
+  background-image: url("../img/pexels-joerg-hartmann-626385254-19929414.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -756,7 +756,7 @@ header {
   justify-content: space-evenly;
 }
 .mission-block-one {
-  background-image: url("/img/pexels-stephen-leonardi-587681991-28129916.jpg");
+  background-image: url("../img/pexels-stephen-leonardi-587681991-28129916.jpg");
   color: white;
   max-width: 100%;
   height: 50rem;
@@ -776,7 +776,7 @@ header {
 }
 
 .mission-block-two {
-  background-image: url("/img/pexels-august-de-richelieu-4427813.jpg");
+  background-image: url("../img/pexels-august-de-richelieu-4427813.jpg");
   color: white;
   max-width: 100%;
   height: 50rem;
@@ -796,7 +796,7 @@ header {
 }
 
 .mission-block-three {
-  background-image: url("/img/pexels-marek-piwnicki-3907296-15499467.jpg");
+  background-image: url("../img/pexels-marek-piwnicki-3907296-15499467.jpg");
   color: white;
   max-width: 100%;
   height: 50rem;
@@ -826,7 +826,7 @@ header {
 /* MEMBERS hero area*/
 
 .members-hero-area {
-  background-image: url("/img/pexels-imadclicks-10964887.jpg");
+  background-image: url("../img/pexels-imadclicks-10964887.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -968,7 +968,7 @@ header {
 /* EQUIPMENT hero area*/
 
 .equipment-hero-area {
-  background-image: url("/img/pexels-sebastian-804570.jpg");
+  background-image: url("../img/pexels-sebastian-804570.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1044,7 +1044,7 @@ header {
 /* CURRENT CONDITIONS hero area*/
 
 .current-conditions-hero-area {
-  background-image: url("/img/pexels-ekrulila-2418667.jpg");
+  background-image: url("../img/pexels-ekrulila-2418667.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1085,7 +1085,7 @@ header {
   justify-content: space-evenly;
 }
 .current-conditions-block-one {
-  background-image: url("/img/johannes-waibel-WdBQHcIiSIw-unsplash.jpg");
+  background-image: url("../img/johannes-waibel-WdBQHcIiSIw-unsplash.jpg");
   color: white;
   max-width: 100%;
   height: 50rem;
@@ -1106,7 +1106,7 @@ header {
 }
 
 .current-conditions-block-two {
-  background-image: url("/img/pexels-triemli-28239451.jpg");
+  background-image: url("../img/pexels-triemli-28239451.jpg");
   color: white;
   max-width: 100%;
   height: 50rem;
@@ -1127,7 +1127,7 @@ header {
 }
 
 .current-conditions-block-three {
-  background-image: url("/img/pexels-marek-piwnicki-3907296-15499467.jpg");
+  background-image: url("../img/pexels-marek-piwnicki-3907296-15499467.jpg");
   color: white;
   max-width: 100%;
   height: 50rem;
@@ -1155,7 +1155,7 @@ header {
 /* CURRENT CONDITIONS hero area*/
 
 .slope-status-hero-area {
-  background-image: url("/img/pexels-ekrulila-2418667.jpg");
+  background-image: url("../img/pexels-ekrulila-2418667.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1225,7 +1225,7 @@ header {
 /* CURRENT CONDITIONS hero area*/
 
 .risk-status-hero-area {
-  background-image: url("/img/pexels-deimantas-viburys-1188635-21235817.jpg");
+  background-image: url("../img/pexels-deimantas-viburys-1188635-21235817.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1352,7 +1352,7 @@ header {
 /* ---------------------------------------- */
 /* special events page */
 .events-hero-area {
-  background-image: url("/img/pexels-duawalidd-31080476.jpg");
+  background-image: url("../img/pexels-duawalidd-31080476.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1415,7 +1415,7 @@ header {
 
 /* Info sessions page  */
 .infosessions-hero-area {
-  background-image: url("/img/pexels-duawalidd-31080476.jpg");
+  background-image: url("../img/pexels-duawalidd-31080476.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1477,7 +1477,7 @@ header {
 }
 /* Volunteer page */
 .volunteer-hero-area {
-  background-image: url("/img/pexels-rom-fotgrafo-9369625.jpg");
+  background-image: url("../img/pexels-rom-fotgrafo-9369625.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1524,7 +1524,7 @@ header {
 /*  */
 /* Info sessions page  */
 .work-hero-area {
-  background-image: url("/img/pexels-toulouse-6534900.jpg");
+  background-image: url("../img/pexels-toulouse-6534900.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1571,7 +1571,7 @@ header {
 
 /* avalanche page */
 .avalanche-hero-area {
-  background-image: url("/img/krzysztof-kowalik-PkXThkFaGzo-unsplash.jpg");
+  background-image: url("../img/krzysztof-kowalik-PkXThkFaGzo-unsplash.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1627,7 +1627,7 @@ header {
 /* hypothermia page */
 
 .hypothermia-hero-area {
-  background-image: url("/img/krzysztof-kowalik-PkXThkFaGzo-unsplash.jpg");
+  background-image: url("../img/krzysztof-kowalik-PkXThkFaGzo-unsplash.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
