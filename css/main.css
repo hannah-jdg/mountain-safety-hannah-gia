@@ -101,11 +101,11 @@ header {
 
 .navigation a {
   text-decoration: none;
-  color: black;
+  color: #453e4f;
 }
 
 .navigation a:hover {
-  color: #453e4f;
+  color: #695e79;
 }
 
 /* index hero & css */
@@ -150,7 +150,7 @@ header {
 }
 
 .intro-text p {
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 .intro img {
@@ -167,9 +167,12 @@ header {
   color: #ffffff;
   padding: 7rem;
   border-radius: 1rem;
-  margin: 1rem 0rem;
+  margin: 0.5rem 0rem;
   text-align: center;
+  border-end-start-radius: 4rem;
+  border-end-end-radius: 4rem;
 }
+
 .banner button {
   background-color: #ffffff;
   padding: 1rem 3rem;
