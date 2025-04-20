@@ -940,7 +940,7 @@ header {
   background-repeat: no-repeat;
   border-end-start-radius: 4rem;
   border-end-end-radius: 4rem;
-  height: 650px;
+  height: 40rem;
   padding: 4rem 5rem;
   color: #ffffff;
   display: flex;
@@ -991,7 +991,6 @@ header {
   width: 100%;
   height:auto;
 }
-
 
 /* CURRENT CONDITIONS blocks section */
 
@@ -1068,10 +1067,10 @@ header {
   flex-direction: column-reverse;
 }
 
-/* CURRENT CONDITIONS PAGE */
+/* -------------------------------------------------------------------- */
+/* SLOPE STATUS PAGE */
 
-/* CURRENT CONDITIONS hero area*/
-
+/* SLOPE STATUS hero area*/
 .slope-status-hero-area {
   background-image: url("../img/pexels-ekrulila-2418667.jpg");
   background-size: cover;
@@ -1079,7 +1078,7 @@ header {
   background-repeat: no-repeat;
   border-end-start-radius: 4rem;
   border-end-end-radius: 4rem;
-  height: 650px;
+  height: 40rem;
   padding: 4rem 5rem;
   color: #ffffff;
   display: flex;
@@ -1105,18 +1104,35 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 2rem;
 }
 
 .intro-slope {
   background-color: #cec6d8;
-  padding: 2rem 4rem;
-  padding-right: 10rem;
+  padding: 6rem 5rem;
+  padding-right: 8rem;
   border-radius: 0.5rem;
+  flex: 0 0 40%;
+}
+
+.intro-slope h2 {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #453e4f;
+  padding-top: 2rem;
 }
 
 .intro-slope-img img {
-  border-radius: 0.5rem;
+  border-radius: 1rem;
+}
+
+.runs-slope {
+  background-color: #695e79;
+  border-radius: 1rem;
+  padding: 2rem 3rem;
+  padding-top: 5rem;
+  color: #ffffff;
+  margin-top: 1rem;
+  text-align: center;
 }
 
 .slope-content {
@@ -1128,12 +1144,17 @@ header {
 
 .slope-text {
   background-color: #cde5ff;
-  padding: 2rem 4rem;
+  padding: 10rem 4rem;
   border-radius: 0.5rem;
+  flex: 0 0 40%;
+  text-align: center;
+  font-size: 4.5rem;
 }
 
 .slope-image img {
   border-radius: 0.5rem;
+  width: auto;
+  max-height: 100%;
 }
 
 /* -----------------------------------------------------------------------*/
