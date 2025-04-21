@@ -90,7 +90,7 @@ header {
 .navigation ul {
   display: flex;
   list-style: none;
-  padding: 2rem;
+  padding: 1rem;
   margin: 0;
   gap: 2rem;
 }
@@ -102,6 +102,8 @@ header {
 .navigation a {
   text-decoration: none;
   color: #453e4f;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .navigation a:hover {
@@ -119,15 +121,16 @@ header {
 }
 
 .hero-area {
-  padding: 0.5rem;
+  padding: 2rem;
   color: #ffffff;
-  padding-left: 5rem;
+  text-align: center;
 }
 
 .hero-area h1 {
-  line-height: 12rem;
+  line-height: 8rem;
   margin-bottom: 0rem;
   padding-top: 4rem;
+  font-size: 6rem;
 }
 
 .hero-area p {
@@ -136,17 +139,14 @@ header {
 }
 
 /* intro section */
-.intro {
-  display: flex;
-  justify-items: space-between;
-  gap: 1rem;
-}
+
 
 .intro-text {
   background: #2d4a40;
   color: #ffffff;
   padding: 5rem;
   border-radius: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .intro-text p {
@@ -167,10 +167,10 @@ header {
   color: #ffffff;
   padding: 7rem;
   border-radius: 1rem;
-  margin: 0.5rem 0rem;
   text-align: center;
   border-end-start-radius: 4rem;
   border-end-end-radius: 4rem;
+  margin-top: 1.25rem;
 }
 
 .banner button {
@@ -188,16 +188,10 @@ header {
 }
 
 /* blocks (cards) section */
-.blocks {
-  gap: 1rem;
-  padding: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
+
 
 .block-one {
-  background-image: url("../img/mossy-forest.jpg");
+  background-image: url("../img/pexels-toulouse-18331843.jpg");
   color: white;
   max-width: 100%;
   height: 50rem;
@@ -205,6 +199,8 @@ header {
   background-repeat: no-repeat;
   border-radius: 0.5rem;
   flex: 1;
+  text-shadow: 0.05rem 0.05rem 0.05rem #a4a4a4;
+  margin-bottom: 1rem;
 }
 
 .block-one img{
@@ -224,7 +220,7 @@ header {
 }
 
 .block-two {
-  background-image: url("../img/people-walking.jpg");
+  background-image: url("../img/jorge-vasconez-BWLK-svXSxw-unsplash.jpg");
   color: white;
   max-width: 100%;
   height: 50rem;
@@ -232,6 +228,7 @@ header {
   background-repeat: no-repeat;
   border-radius: 0.5rem;
   flex: 1;
+  margin-bottom: 1rem;
 }
 
 .block-two img{
@@ -251,7 +248,7 @@ header {
 }
 
 .block-three {
-  background-image: url("../img/helicopter-index.jpg");
+  background-image: url("../img/pexels-triemli-28239451.jpg");
   color: white;
   max-width: 100%;
   height: 50rem;
@@ -259,6 +256,7 @@ header {
   background-repeat: no-repeat;
   border-radius: 0.5rem;
   flex: 1;
+  margin-bottom: 1rem;
 }
 
 .block-three img{
@@ -1265,22 +1263,22 @@ header {
 
 
 
-
 /* -------------------------------------------------------------------------- */
 /* special events page */
 .events-hero-area {
-  background-image: url("../img/pexels-duawalidd-31080476.jpg");
+  background-image: url("../img/pexels-fatima-43381191-7396000.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-end-start-radius: 4rem;
   border-end-end-radius: 4rem;
-  height: 650px;
+  height: 40rem;
   padding: 4rem 5rem;
   color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-shadow: #292929;
 }
 
 /* MISSION hero area */
@@ -1299,11 +1297,12 @@ header {
 }
 
 .events-intro {
-  border-radius: 0.5rem;
-  background-color: #2d4a40;
-  color: #ffffff;
-  padding: 2rem 3rem;
+  border-radius: 1rem;
+  background-color: #cec6d8;
+  color: #292929;
+  padding: 4rem 2rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .event-option-one {
@@ -1330,6 +1329,8 @@ header {
   margin-bottom: 2rem;
 }
 
+
+/* ---------------------------------------------------------------------- */
 /* Info sessions page  */
 .infosessions-hero-area {
   background-image: url("../img/pexels-duawalidd-31080476.jpg");
@@ -1338,7 +1339,7 @@ header {
   background-repeat: no-repeat;
   border-end-start-radius: 4rem;
   border-end-end-radius: 4rem;
-  height: 650px;
+  height: 40rem;
   padding: 4rem 5rem;
   color: #ffffff;
   display: flex;
@@ -1350,7 +1351,6 @@ header {
 .infosessions-hero-area h2 {
   font-size: 5rem;
   line-height: 1.1;
-  margin: 0;
   font-weight: 800;
 }
 
@@ -1362,17 +1362,18 @@ header {
 }
 
 .infosessions-intro {
-  border-radius: 0.5rem;
-  background-color: #668077;
+  border-radius: 1rem;
+  background-color: #2d4a40;
   color: #ffffff;
-  padding: 2rem 3rem;
+  padding: 2rem 4rem;
   margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .infosession-option-one {
   background-color: #292929;
   color: #ffffff;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   padding: 2rem 3rem;
   margin-bottom: 2rem;
 }
@@ -1380,19 +1381,23 @@ header {
 .infosession-option-two {
   background-color: #292929;
   color: #ffffff;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   padding: 2rem 3rem;
   margin-bottom: 2rem;
 }
 
 .infosession-option-three {
-  background-color: #2d4a40;
-  color: #ffffff;
-  border-radius: 0.5rem;
+  background-color: #cec6d8;
+  color: #292929;
+  border-radius: 1rem;
   padding: 2rem 3rem;
-  margin-bottom: 2rem;
+
 }
+
+
+/* --------------------------------------------------------------------- */
 /* Volunteer page */
+
 .volunteer-hero-area {
   background-image: url("../img/pexels-rom-fotgrafo-9369625.jpg");
   background-size: cover;
@@ -1400,7 +1405,7 @@ header {
   background-repeat: no-repeat;
   border-end-start-radius: 4rem;
   border-end-end-radius: 4rem;
-  height: 650px;
+  height: 40rem;
   padding: 4rem 5rem;
   color: #ffffff;
   display: flex;
@@ -1411,21 +1416,19 @@ header {
 .volunteer-hero-area h2 {
   font-size: 5rem;
   line-height: 1.1;
-  margin: 0;
   font-weight: 800;
 }
 
 .volunteer-hero-area h4 {
   font-size: 1.5rem;
   font-weight: 600;
-  margin: 0;
   padding-top: 1rem;
 }
 
 .volunteer-intro {
-  border-radius: 0.5rem;
-  background-color: #cde5ff;
-  color: #292929;
+  border-radius: 1rem;
+  background-color: #2d4a40;
+  color: #ffffff;
   padding: 2rem 3rem;
   margin-top: 1rem;
 }
@@ -1435,11 +1438,11 @@ header {
   color: #ffffff;
   padding: 2rem;
   margin-top: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
-/*  */
-/* Info sessions page  */
+/* ----------------------------------------------------------------- */
+/* Careers page  */
 .work-hero-area {
   background-image: url("../img/pexels-toulouse-6534900.jpg");
   background-size: cover;
@@ -1447,7 +1450,7 @@ header {
   background-repeat: no-repeat;
   border-end-start-radius: 4rem;
   border-end-end-radius: 4rem;
-  height: 650px;
+  height: 40rem;
   padding: 4rem 5rem;
   color: #ffffff;
   display: flex;
@@ -1459,33 +1462,34 @@ header {
 .work-hero-area h2 {
   font-size: 5rem;
   line-height: 1.1;
-  margin: 0;
   font-weight: 800;
 }
 
 .work-hero-area h4 {
   font-size: 1.5rem;
   font-weight: 600;
-  margin: 0;
   padding-top: 1rem;
 }
 
 .work-intro {
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   background-color: #cde5ff;
   color: #292929;
   padding: 2rem 3rem;
-  margin-top: 1rem;
+  border-end-start-radius: 4rem;
+  border-end-end-radius: 4rem;
 }
 
 .work-opportunities {
   background-color: #292929;
   color: #ffffff;
-  padding: 2rem;
+  padding: 2rem 3rem;
   margin-top: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
+
+/* --------------------------------------------------------------------------------- */
 /* avalanche page */
 .avalanche-hero-area {
   background-image: url("../img/krzysztof-kowalik-PkXThkFaGzo-unsplash.jpg");
@@ -1494,7 +1498,7 @@ header {
   background-repeat: no-repeat;
   border-end-start-radius: 4rem;
   border-end-end-radius: 4rem;
-  height: 650px;
+  height: 40rem;
   padding: 4rem 5rem;
   color: #ffffff;
   display: flex;
@@ -1506,14 +1510,12 @@ header {
 .avalanche-hero-area h2 {
   font-size: 5rem;
   line-height: 1.1;
-  margin: 0;
   font-weight: 800;
 }
 
 .avalanche-hero-area h4 {
   font-size: 1.5rem;
   font-weight: 600;
-  margin: 0;
   padding-top: 1rem;
 }
 
@@ -1522,7 +1524,8 @@ header {
   color: #453e4f;
   border-radius: 0.5rem;
   padding: 2rem 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .avalanche-card-two {
@@ -1530,7 +1533,7 @@ header {
   color: #453e4f;
   border-radius: 0.5rem;
   padding: 2rem 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .avalanche-card-three {
@@ -1538,7 +1541,7 @@ header {
   color: #453e4f;
   border-radius: 0.5rem;
   padding: 2rem 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 /* hypothermia page */
@@ -1576,25 +1579,26 @@ header {
 .hypothermia-card-one {
   background-color: #cec6d8;
   color: #453e4f;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   padding: 2rem 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .hypothermia-card-two {
   background-color: #cec6d8;
   color: #453e4f;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   padding: 2rem 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .hypothermia-card-three {
   background-color: #cec6d8;
   color: #453e4f;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   padding: 2rem 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 /* footer section */
@@ -1602,15 +1606,10 @@ footer {
   background-color: #453e4f;
   color: #ffffff;
   line-height: 2rem;
-  display: flex;
-  justify-content: center;
   padding: 3rem 0rem;
+  text-align: center;
 }
 
-.footer-container {
-  display: flex;
-  gap: 4rem;
-}
 
 .footer-container ul {
   list-style: none;
@@ -1624,3 +1623,131 @@ footer {
 .footer-container a:hover {
   color: #cec6d8;
 }
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    padding: 1rem;
+    padding-left: 1rem;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .navigation ul {
+    display: flex;
+    list-style: none;
+    padding: 2rem;
+    margin: 0;
+    gap: 2rem;
+  }
+  
+  .navigation li {
+    margin-bottom: 1rem;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #453e4f;
+  }
+  
+  .navigation a:hover {
+    color: #695e79;
+  }
+
+
+  .hero-area h1 {
+    line-height: 12rem;
+    margin-bottom: 0rem;
+    padding-top: 4rem;
+  }
+
+  .hero-area {
+    padding: 0.5rem;
+    color: #ffffff;
+    padding-left: 5rem;
+  }
+
+  .intro {
+    display: flex;
+    justify-items: space-between;
+    gap: 1rem;
+  }
+
+  .blocks {
+    gap: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .block-one {
+    background-image: url("../img/pexels-toulouse-18331843.jpg");
+    color: white;
+    max-width: 100%;
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    flex: 1;
+    text-shadow: 0.05rem 0.05rem 0.05rem #a4a4a4;
+  }
+
+  .block-two {
+    background-image: url("../img/jorge-vasconez-BWLK-svXSxw-unsplash.jpg");
+    color: white;
+    max-width: 100%;
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    flex: 1;
+  }
+  
+  .block-three {
+    background-image: url("../img/pexels-triemli-28239451.jpg");
+    color: white;
+    max-width: 100%;
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    flex: 1;
+  }
+
+
+  footer {
+    background-color: #453e4f;
+    color: #ffffff;
+    line-height: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0rem;
+  }
+
+  .footer-container {
+    display: flex;
+    gap: 4rem;
+  }
+
+ }
